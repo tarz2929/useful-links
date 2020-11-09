@@ -1,3 +1,10 @@
+JSON Recursion Fix:
+dotnet add package Microsoft.AspNetCore.Mvc.NewtonsoftJson 
+In Startup.cs:
+services.AddControllers().AddNewtonsoftJson(options =>
+    options.SerializerSettings.ReferenceLoopHandling = Newtonsoft.Json.ReferenceLoopHandling.Ignore
+);
+
 HTTP Methods:
 https://www.w3schools.com/tags/ref_httpmethods.asp
 https://developer.mozilla.org/en-US/docs/Web/HTTP/Methods
