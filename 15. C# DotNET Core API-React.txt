@@ -3,3 +3,5 @@ https://docs.microsoft.com/en-us/aspnet/core/client-side/spa/react?view=aspnetco
 
 Using Axios Instead of Fetch:
 https://www.digitalocean.com/community/tutorials/react-axios-react
+
+Use Version 3.1.9 of all Microsoft packages for now.
